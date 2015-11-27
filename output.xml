@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20151127 11:43:58.669" generator="Robot 2.9.2 (Python 2.7.10 on darwin)">
+<suite source="/Users/alexrichardson/Workspace/test-robot-circleci/tests" id="s1" name="Tests">
+<suite source="/Users/alexrichardson/Workspace/test-robot-circleci/tests/valid_page.robot" id="s1-s1" name="Valid Page">
+<test id="s1-s1-t1" name="Valid Page">
+<kw name="Open Browser To Landing Page" library="resource">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20151127 11:43:58.776" level="INFO">Opening browser 'Firefox' to base url 'http://localhost:8000/'</msg>
+<status status="PASS" endtime="20151127 11:44:00.932" starttime="20151127 11:43:58.775"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20151127 11:44:01.353" starttime="20151127 11:44:00.933"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20151127 11:44:01.355" starttime="20151127 11:44:01.354"></status>
+</kw>
+<kw name="Login Page Should Be Open" library="resource">
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Test Alex</arg>
+</arguments>
+<msg timestamp="20151127 11:44:01.360" level="INFO">Page title is 'Test Alex'.</msg>
+<status status="PASS" endtime="20151127 11:44:01.360" starttime="20151127 11:44:01.356"></status>
+</kw>
+<status status="PASS" endtime="20151127 11:44:01.361" starttime="20151127 11:44:01.355"></status>
+</kw>
+<status status="PASS" endtime="20151127 11:44:01.361" starttime="20151127 11:43:58.775"></status>
+</kw>
+<kw name="Login Page Should Be Open" library="resource">
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that current page title equals `title`.</doc>
+<arguments>
+<arg>Test Alex</arg>
+</arguments>
+<msg timestamp="20151127 11:44:01.368" level="INFO">Page title is 'Test Alex'.</msg>
+<status status="PASS" endtime="20151127 11:44:01.368" starttime="20151127 11:44:01.362"></status>
+</kw>
+<status status="PASS" endtime="20151127 11:44:01.369" starttime="20151127 11:44:01.362"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20151127 11:44:01.427" starttime="20151127 11:44:01.370"></status>
+</kw>
+<status status="PASS" endtime="20151127 11:44:01.428" critical="yes" starttime="20151127 11:43:58.774"></status>
+</test>
+<doc>A test suite with a single test for valid login.
+
+This test has a workflow that is created using keywords in
+the imported resource file.</doc>
+<status status="PASS" endtime="20151127 11:44:01.428" starttime="20151127 11:43:58.705"></status>
+</suite>
+<status status="PASS" endtime="20151127 11:44:01.430" starttime="20151127 11:43:58.672"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Tests" pass="1">Tests</stat>
+<stat fail="0" id="s1-s1" name="Valid Page" pass="1">Tests.Valid Page</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
