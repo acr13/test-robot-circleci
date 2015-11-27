@@ -1,0 +1,6 @@
+test:
+  override:
+    - pybot -n non-critical -d "test_results" -o "../discard/output.xml" ./tests
+general:
+  artifacts:
+    - "test_results"
