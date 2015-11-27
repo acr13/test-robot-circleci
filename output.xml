@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20151127 11:43:58.669" generator="Robot 2.9.2 (Python 2.7.10 on darwin)">
+<robot generated="20151127 15:26:02.594" generator="Robot 2.9.2 (Python 2.7.10 on darwin)">
 <suite source="/Users/alexrichardson/Workspace/test-robot-circleci/tests" id="s1" name="Tests">
 <suite source="/Users/alexrichardson/Workspace/test-robot-circleci/tests/valid_page.robot" id="s1-s1" name="Valid Page">
 <test id="s1-s1-t1" name="Valid Page">
@@ -10,19 +10,19 @@
 <arg>${LOGIN URL}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20151127 11:43:58.776" level="INFO">Opening browser 'Firefox' to base url 'http://localhost:8000/'</msg>
-<status status="PASS" endtime="20151127 11:44:00.932" starttime="20151127 11:43:58.775"></status>
+<msg timestamp="20151127 15:26:02.713" level="INFO">Opening browser 'Firefox' to base url 'http://localhost:8000/'</msg>
+<status status="PASS" endtime="20151127 15:26:04.878" starttime="20151127 15:26:02.713"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" endtime="20151127 11:44:01.353" starttime="20151127 11:44:00.933"></status>
+<status status="PASS" endtime="20151127 15:26:05.277" starttime="20151127 15:26:04.878"></status>
 </kw>
 <kw name="Set Selenium Speed" library="Selenium2Library">
 <doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
 <arguments>
 <arg>${DELAY}</arg>
 </arguments>
-<status status="PASS" endtime="20151127 11:44:01.355" starttime="20151127 11:44:01.354"></status>
+<status status="PASS" endtime="20151127 15:26:05.278" starttime="20151127 15:26:05.277"></status>
 </kw>
 <kw name="Login Page Should Be Open" library="resource">
 <kw name="Title Should Be" library="Selenium2Library">
@@ -30,12 +30,12 @@
 <arguments>
 <arg>Test Alex</arg>
 </arguments>
-<msg timestamp="20151127 11:44:01.360" level="INFO">Page title is 'Test Alex'.</msg>
-<status status="PASS" endtime="20151127 11:44:01.360" starttime="20151127 11:44:01.356"></status>
+<msg timestamp="20151127 15:26:05.285" level="INFO">Page title is 'Test Alex'.</msg>
+<status status="PASS" endtime="20151127 15:26:05.285" starttime="20151127 15:26:05.279"></status>
 </kw>
-<status status="PASS" endtime="20151127 11:44:01.361" starttime="20151127 11:44:01.355"></status>
+<status status="PASS" endtime="20151127 15:26:05.286" starttime="20151127 15:26:05.278"></status>
 </kw>
-<status status="PASS" endtime="20151127 11:44:01.361" starttime="20151127 11:43:58.775"></status>
+<status status="PASS" endtime="20151127 15:26:05.287" starttime="20151127 15:26:02.712"></status>
 </kw>
 <kw name="Login Page Should Be Open" library="resource">
 <kw name="Title Should Be" library="Selenium2Library">
@@ -43,24 +43,24 @@
 <arguments>
 <arg>Test Alex</arg>
 </arguments>
-<msg timestamp="20151127 11:44:01.368" level="INFO">Page title is 'Test Alex'.</msg>
-<status status="PASS" endtime="20151127 11:44:01.368" starttime="20151127 11:44:01.362"></status>
+<msg timestamp="20151127 15:26:05.294" level="INFO">Page title is 'Test Alex'.</msg>
+<status status="PASS" endtime="20151127 15:26:05.294" starttime="20151127 15:26:05.288"></status>
 </kw>
-<status status="PASS" endtime="20151127 11:44:01.369" starttime="20151127 11:44:01.362"></status>
+<status status="PASS" endtime="20151127 15:26:05.295" starttime="20151127 15:26:05.287"></status>
 </kw>
 <kw type="teardown" name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20151127 11:44:01.427" starttime="20151127 11:44:01.370"></status>
+<status status="PASS" endtime="20151127 15:26:05.340" starttime="20151127 15:26:05.295"></status>
 </kw>
-<status status="PASS" endtime="20151127 11:44:01.428" critical="yes" starttime="20151127 11:43:58.774"></status>
+<status status="PASS" endtime="20151127 15:26:05.340" critical="yes" starttime="20151127 15:26:02.711"></status>
 </test>
 <doc>A test suite with a single test for valid login.
 
 This test has a workflow that is created using keywords in
 the imported resource file.</doc>
-<status status="PASS" endtime="20151127 11:44:01.428" starttime="20151127 11:43:58.705"></status>
+<status status="PASS" endtime="20151127 15:26:05.341" starttime="20151127 15:26:02.625"></status>
 </suite>
-<status status="PASS" endtime="20151127 11:44:01.430" starttime="20151127 11:43:58.672"></status>
+<status status="PASS" endtime="20151127 15:26:05.342" starttime="20151127 15:26:02.596"></status>
 </suite>
 <statistics>
 <total>
