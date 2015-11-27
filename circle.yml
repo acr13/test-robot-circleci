@@ -1,7 +1,7 @@
 test:
   override:
-    - cd www
-    - python -m SimpleHTTPServer
+    - cd www && python -m SimpleHTTPServer
+      background: true
     - pybot -n non-critical -d "test_results" -o "../discard/output.xml" ./tests
 general:
   artifacts:
